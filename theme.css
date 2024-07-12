@@ -1,0 +1,197 @@
+body.theme-dark {
+  --background-primary: #080808;
+  --background-secondary: #080808;
+  --text-normal: #f5f7fa;
+  /*--link-color: #ff0000;*/
+  /*--text-accent: #5e0b11;*/
+  --ribbon-background: var(--background-primary);
+  --font-text: 'Pixel Square';
+
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-text);
+
+
+    --code-background: #111112;
+    --code-normal: var(--text-normal);
+    --code-comment: #a4b9db;
+    --code-function: var(--color-yellow);
+	--code-important: var(--color-orange);
+    --code-keyword: var(--color-red);
+    --code-operator: var(--color-cyan);
+    --code-property: var(--color-pink);
+    --code-punctuation: var(--text-muted);
+    --code-string: #4682e3;
+    --code-tag: var(--color-red);
+    --code-value: var(--color-purple);
+
+	--color-accent: var(--interactive-accent);
+    --checkbox-color-hover: var(--text-accent-hover);
+	--text-selection: var(--text-accent-hover);
+	--text-accent: var(--text-accent-hover);
+	--selection-color: #f5f7fa;
+}
+
+body.theme-light {
+  --background-primary: #f5f7fa;
+  --background-secondary: #f5f7fa;
+  --text-normal: #080808;
+  --font-text: 'Pixel Square'; 
+  --code-string: #4682e3;
+  --color-accent: var(--interactive-accent);
+  --checkbox-color-hover: var(--text-accent-hover);
+  --text-selection: var(--text-accent-hover);
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+  font-family: var(--font-text);
+  --selection-color: #f5f7fa;
+}
+
+.u-pop { 
+  color: var(--interactive-accent);
+}
+
+.fc .fc-button .fc-icon {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+
+.fc .fc-list-empty {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+
+.fc, .fc *, .fc *:before, .fc *:after {
+  background-color:var(--background-primary);
+  color: var(--interactive-accent);
+}
+.fc .fc-list-empty-cushion {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+
+.fc-direction-ltr .fc-toolbar > * > :not(:first-child){
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+.fc .fc-button-primary{
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+
+body:not(.is-phone) .vertical-tab-nav-item.is-active{
+  background-color:var(--interactive-accent);
+}
+
+input[type='text'] {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+.setting-hotkey {
+  background-color:var(--background-primary);
+}
+.dropdown {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+select:hover, .dropdown:hover{
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+button:not(.clickable-icon) {
+  background-color:var(--background-primary);
+  color: var(--text-normal);
+}
+.canvas-control-item {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.canvas-card-menu .canvas-card-menu-button {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.titlebar-button{
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.status-bar{
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.modal.mod-settings .vertical-tab-header {
+  background-color: var(--background-primary);
+}
+.sidebar-toggle-button {
+  background-color: var(--background-primary);
+}
+body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-profile {
+  background-color: var(--background-primary);
+}
+.nav-header {
+  background-color: var(--background-primary);
+}
+.workspace-split.mod-left-split .view-content, .workspace-split.mod-right-split .view-content {
+  background-color: var(--background-primary);
+}
+.workspace-tab-header-container {
+  background-color: var(--background-primary);
+}
+.markdown-preview-view {
+  background-color: var(--background-primary); 
+}
+.nav-files-container {
+  background-color: var(--background-primary);
+}
+.workspace-sidedock-vault-profile{
+  background-color: var(--background-primary);
+}
+.cm-s-obsidian {
+  background-color: var(--background-primary);
+  font-family: var(--ui-font);
+}
+.modal-content {
+  background-color: var(--background-primary);
+}
+.markdown-source-view.mod-cm6 .cm-link .cm-underline, .markdown-source-view.mod-cm6 .cm-url .cm-underline {
+  color: var(--interactive-accent);
+}	
+a {
+  color: var(--interactive-accent);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--interactive-accent);
+  font-family: var(--ui-font);
+}
+.button {
+  background-color: var(--text-accent);
+  color: var(--background-primary);
+}
+.button:hover {
+  background-color: var(--interactive-color);
+}
+.workspace-split:not(.mod-root) .graph-controls.is-close {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.graph-view.color-fill {
+  color: var(--text-normal);
+}
+.search-input-container input {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+input[type='text'], input[type='search'], input[type='email'], input[type='password'], input[type='number'] {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+}
+.checkbox-container{
+  background-color: var(--background-primary);
+}
+::selection { 
+  color: var(--selection-color);
+}
+button.mod-cta:hover {
+  background-color: var(--interactive-accent);
+}
+

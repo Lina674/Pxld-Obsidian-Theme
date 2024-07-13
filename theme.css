@@ -20,6 +20,7 @@ body.theme-dark {
   font-family: var(--font-text);
 
 	--interactive-accent: #ff0000;
+	--text-accent-hover: #5e0b11;
 
     --code-background: #111112;
     --code-normal: var(--text-normal);
@@ -55,6 +56,8 @@ body.theme-light {
   font-family: var(--font-text);
   --selection-color: #f5f7fa;
 }
+
+
 
 .u-pop { 
   color: var(--interactive-accent);
@@ -204,3 +207,30 @@ button.mod-cta:hover {
   background-color: var(--interactive-accent);
 }
 
+
+
+/* @settings
+name: Pxld
+id: pxld-theme
+settings:
+  - id: my-title
+    title: Theme Settings
+    type: heading
+    level: 3
+  - id: interactive-accent
+    title: Accent Color
+    type: variable-color
+    format: hex
+    default: '#ff0000'
+  - 
+	 id: text-accent-hover
+	 title: Accent Hover Color
+	 type: variable-color
+	 format: hex
+	 default: '#5e0b11'
+  - 
+	 id: font-text
+	 title: Base Font
+	 type: variable-text
+	 default: 'Pixel Square' 
+*/

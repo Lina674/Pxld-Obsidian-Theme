@@ -19,8 +19,8 @@ body.theme-dark {
   color: var(--text-normal);
   font-family: var(--font-text);
 
-	--interactive-accent: #ff0000;
-	--text-accent-hover: #5e0b11;
+	/*--interactive-accent: #ff0000;*/
+	/*--text-accent-hover: #5e0b11;*/
 
     --code-background: #111112;
     --code-normal: var(--text-normal);
@@ -46,8 +46,8 @@ body.theme-light {
   --background-primary: #f5f7fa;
   --background-secondary: #f5f7fa;
   --text-normal: #080808;
-  --interactive-accent: #ff0000;
-  --text-accent-hover: #5e0b11;
+  /*--interactive-accent: #ff0000;*/
+  /*--text-accent-hover: #5e0b11;*/
   --font-text: 'pixel_squareregular';
   --code-string: #4682e3;
   --color-accent: var(--interactive-accent);

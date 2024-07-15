@@ -46,7 +46,7 @@ body.theme-light {
   --background-primary: #f5f7fa;
   --background-secondary: #f5f7fa;
   --text-normal: #080808;
-  --font-text: 'Pixel Square'; 
+  --font-text: 'pixel_squareregular';
   --code-string: #4682e3;
   --color-accent: var(--interactive-accent);
   --checkbox-color-hover: var(--text-accent-hover);
